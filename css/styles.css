@@ -1,0 +1,245 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#title {
+  background-color: #ff4c68;
+  height: auto;
+  width: auto;
+}
+
+.container-fluid {
+  padding: 3% 15% 10% 15%;
+}
+
+
+h1 {
+  width: 80%;
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+ }
+
+ h2 {
+   font-family: "Montserrat";
+   font-weight: 700;
+ }
+
+ .nav-item {
+   font-size: 22px;
+   margin: 0 30px 0 0;
+ }
+
+ .navbar {
+   padding: 0 0 10% 0;
+ }
+
+ .iphone6 {
+   transform: rotate(25deg);
+   height: 700px;
+   right: 200px;
+   top: -50px;
+   position: absolute;
+   z-index: 1;
+ }
+
+ .navbar-brand {
+   font-size: 45px;
+   text-transform: lowercase;
+   font-weight: 700;
+ }
+
+ .btn {
+   margin: 5% 3% 0 0;
+ }
+
+
+ #features {
+   background-color: #fff;
+   display: flex;
+   padding: 10%;
+   justify-content: space-around;
+   position: relative;
+   z-index: 2;
+ }
+
+ .z-index {
+   position: relative;
+ }
+
+ .show-1 {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .show-2 {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .show-3 {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+
+ h3 {
+   font-size: 2rem;
+   font-weight: 700;
+ }
+
+ .lol {
+   transform: scale(4);
+   position: relative;
+   bottom: 30px;
+   color: #ef8172;
+   transition: all ease 250ms;
+ }
+
+ .lol:hover {
+   color: #ff4c68;
+ }
+
+ .p-1 {
+   width: 80%;
+   text-align: center;
+   color: #8f8f8f;
+   font-size: 1.3rem;
+ }
+
+ #testimonials {
+   text-align: center;
+   background-color: #ef8172;
+   color: #fff;
+ }
+
+ .carousel-item {
+   padding: 7% 8%;
+ }
+
+ .dog-img {
+   width: 10%;
+   border-radius: 100%;
+   margin: 2% 0 0 0;
+ }
+
+ #press {
+   background-color: #ef8172;
+   padding: 0 5% 5% 5%;
+   text-align: center;
+ }
+
+ .sponser-logo {
+   width: 20%;
+   padding: 0 50px 0 50px;
+ }
+
+ .card-group {
+   padding: 3%;
+ }
+
+ #pricing {
+   text-align: center;
+   padding: 5% 0 0 0;
+ }
+
+ .btn-bts {
+   background-color: #2b2b2b;
+ }
+
+ .btn-bts:hover {
+   background-color: #1b1b1b;
+ }
+
+ #cta {
+   background-color: #ff4c68;
+   color: #fff;
+   text-align: center;
+   padding: 5%;
+ }
+
+ .cta-text {
+   font-size: 3rem;
+   margin: 0 0 5% 0;
+   font-weight: 900;
+ }
+
+ .btn-zin {
+   margin: auto 1% auto 1%;;
+ }
+
+ #footer {
+   background-color: #fff;
+   padding: 5%;
+   text-align: center;
+ }
+
+ .logo-footer {
+   transform: scale(1.8);
+ }
+
+ .logo-bczin {
+   margin: 25px 25px 50px 0;
+ }
+
+ .p-footer {
+   font-size: 1.5rem;
+ }
+
+@media (max-width: 1023px) {
+  #title {
+    text-align: center;
+  }
+
+  h1 {
+    margin: 0 auto 0 auto;
+  }
+
+  .show {
+    padding: 5%;
+  }
+
+  .iphone6 {
+    padding: 10% 0 0 0;
+    position: static;
+    transform: rotate(0);
+  }
+
+  #cta {
+    padding: 10%;
+  }
+
+  #footer {
+    padding: 15%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1250px) {
+  .iphone6 {
+    height: 550px;
+    position: absolute;
+    right: 25px;
+  }
+
+  .show-2 {
+    text-align: center;
+  }
+
+  .show-3 {
+    text-align: center;
+  }
+
+  #cta {
+    padding: 8%;
+  }
+
+}
